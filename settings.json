@@ -1,0 +1,55 @@
+{
+
+    // general settings
+    "workbench.startupEditor": "none",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.editor.enablePreview": false,
+    "window.restoreWindows": "none",
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "Cascadia Code",
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "debug.console.fontFamily": "Cascadia Code",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "debug.console.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "files.hotExit": "off",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    
+    // launch settings
+    "launch": {
+    
+            // Python debug settings
+           "version": "0.2.0",
+           "configurations": [
+               {
+                   "name": "Python",
+                   "type": "python",
+                   "request": "launch",
+                   "program": "${file}",
+                   "console": "internalConsole"
+                }
+            ]
+        },
+    "git.autofetch": true,
+    "jupyter.askForKernelRestart": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Default Light+",
+    "files.associations": {
+        "**/bi-analytics/**/*.yaml": "jinja-yaml",
+        "**/bi-analytics/**/*.yml": "jinja-yaml",
+        "**/bi-analytics/**/*.sql": "jinja-sql",
+        "**/bi-analytics/**/docs/**/*.md": "jinja-md"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "git.ignoreRebaseWarning": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false
+}
+    
+    
